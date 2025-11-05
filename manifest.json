@@ -1,0 +1,17 @@
+{
+  "short_name": "PathScheduler",
+  "name": "PathScheduler AI",
+  "description": "An application that generates a personalized, adaptive learning path for MCA graduates based on a target job description, current skills, weekly commitment, and learning style.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#7c3aed",
+  "background_color": "#f1f5f9"
+}

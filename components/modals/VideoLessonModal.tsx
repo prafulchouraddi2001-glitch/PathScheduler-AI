@@ -24,11 +24,6 @@ const loadingMessages = [
 
 // This is a global declaration for the aistudio object that is expected to be on the window
 // FIX: Removed redundant global declaration to resolve type conflict. The type is imported from `types.ts`.
-declare global {
-    interface Window {
-        aistudio: AIStudio;
-    }
-}
 
 const VideoLessonModal: React.FC<VideoLessonModalProps> = ({ module, weekIdx, modIdx, onClose }) => {
     const { dispatch } = useAppContext();

@@ -207,3 +207,10 @@ export interface AIStudio {
     hasSelectedApiKey: () => Promise<boolean>;
     openSelectKey: () => Promise<void>;
 }
+
+// FIX: Added global declaration for window.aistudio to centralize the type and prevent conflicts.
+declare global {
+    interface Window {
+        aistudio: AIStudio;
+    }
+}
